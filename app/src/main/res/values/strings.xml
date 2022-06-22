@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InfoPlace">: معلومات عن مكان السكن</string>
+    <string name="InfoPlaceCustemr">معلومات عن العميل</string>
+    <string name="Tv_Place">مكان السكن</string>
+    <string name="tv_City">:اسم الحي</string>
+    <string name="tv_street">اسم الشارع</string>
+    <string name="space">----------------------------------------------------------</string>
+    <string name="tvNumberBuilding">:رقم البناية</string>
+    <string name="tvNumberBuilding1">:رقم الطابق</string>
+    <string name="tvNumbrDepartment">رقم الشقة</string>
+    <string name="btnReply">الرد على طلب العميل</string>
+    <string name="tvNameCustomer">اسم العميل</string>
+    <string name="tvInfoCustomerApp">معلومات عن طلب العميل</string>
+    <string name="tvTypeGass">نوع الغاز</string>
+    <string name="tvNumberGass">عدد الاسطوانات</string>
+    <string name="tvAmount">المبلغ المستحق</string>
+    <string name="tvTypeAmount">طريقة الدفع</string>
+    <string name="tvNumberPhone">رقم الهاتف</string>
+</resources>

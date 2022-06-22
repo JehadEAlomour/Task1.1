@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="modle"
+            type="com.example.task1.customer_place_information" />
+    </data>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Customer_Information">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/iv_sky"
+        tools:src="@drawable/map"
+        android:scaleType="centerCrop"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:id="@+id/cv_info"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        app:cardElevation="6dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InfoPlace"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/tv_info"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="270dp"
+            android:id="@+id/iv_infoCity"
+            android:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_namePlace"
+            android:text="@string/tvNameCustomer"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="190dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvInfoCustomerApp"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/tv_infoCustomer"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_namePlaceInfo"
+            tools:text="علي زياد محمد"
+
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="200dp"/>
+        <!--     *************  -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="270dp"
+            android:id="@+id/iv_infoplace"
+            tools:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameCityInfo"
+            tools:text="غاز1"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="220dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameCity"
+            android:text="@string/tvTypeGass"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="200dp"/>
+        <!--     *************  -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="270dp"
+            android:id="@+id/iv_infoStreet"
+            android:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameStreetInfo"
+            android:text="@string/tvNumberGass"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameStreet"
+            tools:text="1اسطوانة"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="190dp"/>
+        <!-- ****************************-->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/iv_infoBilding"
+            android:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameBuilding"
+            android:text="@string/tvNumberPhone"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameBildingInfo"
+            tools:text="+962458567"
+
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="20dp"/>
+        <!--********************-->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/iv_infoBilding1"
+            android:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameBuilding1"
+            android:text="@string/tvAmount"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameBildingInfo1"
+            tools:text="135 ريال "
+
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="50dp"/>
+        <!-- ***************-->
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/iv_infoDepartment"
+            android:src="@drawable/ic_user"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameDepartment"
+            android:text="@string/tvTypeAmount"
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nameDepartment1"
+            tools:text="عند الاستلام"
+
+            android:textSize="15sp"
+            android:textColor="@color/Gray"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="40dp"/>
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbtn_call"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_call"
+        android:elevation="10dp"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
